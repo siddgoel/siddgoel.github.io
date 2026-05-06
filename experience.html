@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Experience of Siddharth Goel" />
+    <title>Experience | Siddharth Goel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">SG</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html" class="active">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="container page-content">
+      <section class="section">
+        <h1>Experience</h1>
+        <div class="timeline">
+          <article class="card">
+            <h3>Senior Software Engineer · Walmart Global Tech</h3>
+            <p class="meta">Hoboken, NJ · Jun 2024 - Present (Promoted May 2026)</p>
+            <ul>
+              <li>Building a generic ad attribution platform for Walmart Connect.</li>
+              <li>Developed Path-to-Conversion reporting for advertiser outcomes.</li>
+              <li>Stack: Spark, Scala, Airflow, Python, GCP (DataProc).</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Senior Software Engineer · Goldman Sachs</h3>
+            <p class="meta">New York, NY · Jul 2023 - Jun 2024</p>
+            <ul>
+              <li>Built high-performance compliance data pipelines.</li>
+              <li>Reduced cross-trade submission time from 2 minutes to 10 seconds.</li>
+              <li>Designed and shipped a new core Spark pipeline.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Graduate Student Researcher · IBM</h3>
+            <p class="meta">Remote · Jan 2023 - May 2023</p>
+            <ul>
+              <li>Researched polymer representation learning from pre-trained models.</li>
+              <li>Improved property prediction accuracy and performance by 5%.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Software Engineer Intern · Meta</h3>
+            <p class="meta">Menlo Park, CA · May 2022 - Aug 2022</p>
+            <ul>
+              <li>Built Rust tooling for production workload execution.</li>
+              <li>Implemented metadata store and remote job execution capabilities.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Software Engineer Intern · ByteDance</h3>
+            <p class="meta">New York, NY · Jan 2022 - Apr 2022</p>
+            <ul>
+              <li>Improved ingestion performance in offline inference systems by 10%.</li>
+              <li>Contributed to Ray for snappy compressed text decompression support.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Siddharth Goel</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

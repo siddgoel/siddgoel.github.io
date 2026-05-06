@@ -82,6 +82,10 @@ body {
   color: var(--text);
 }
 
+.nav-links a.active {
+  color: var(--text);
+}
+
 .theme-toggle {
   background: var(--surface);
   color: var(--text);
@@ -93,6 +97,13 @@ body {
 
 .hero {
   padding: 6rem 0 3rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
 }
 
 .eyebrow {
@@ -139,6 +150,11 @@ h1 {
 
 .section {
   padding: 2.25rem 0;
+}
+
+.page-content {
+  padding-top: 2rem;
+  min-height: calc(100vh - 180px);
 }
 
 .section h2 {
@@ -206,6 +222,20 @@ h1 {
   text-decoration: none;
 }
 
+.profile-photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-photo {
+  width: min(320px, 88%);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.3);
+}
+
 .footer {
   border-top: 1px solid var(--border);
   text-align: center;
@@ -216,5 +246,9 @@ h1 {
 @media (max-width: 760px) {
   .nav-links {
     display: none;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
   }
 }
