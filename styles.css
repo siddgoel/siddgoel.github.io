@@ -58,10 +58,17 @@ body {
 }
 
 .brand {
-  color: var(--text);
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
-  font-weight: 800;
-  letter-spacing: 0.04em;
+}
+
+.brand-photo {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid var(--border);
 }
 
 .nav-links {
@@ -127,6 +134,31 @@ h1 {
   display: flex;
   gap: 0.8rem;
   flex-wrap: wrap;
+}
+
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.social-links a,
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--accent-2);
+  text-decoration: none;
+}
+
+.social-links img,
+.card a img {
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 2px;
 }
 
 .btn {
