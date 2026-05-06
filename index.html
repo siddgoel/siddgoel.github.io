@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Siddharth Goel, Software Engineer building scalable data and distributed systems."
+    />
+    <title>Siddharth Goel | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">SG</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <p class="eyebrow">Software Engineer III @ Walmart Global Tech</p>
+        <h1>Siddharth Goel</h1>
+        <p class="lead">
+          I build high-performance data platforms and distributed systems for
+          large-scale ad tech and financial workloads.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:siddharth.goel7@gmail.com">Email Me</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/sidgoel7/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-secondary" href="https://github.com/sidgoel7" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2>About</h2>
+        <p>
+          I am an engineer focused on big data systems, analytics platforms, and
+          performance optimization. I currently work in Walmart AdTech
+          Measurement & Reporting, building attribution products that connect
+          ad activity to transaction outcomes using scalable Spark pipelines.
+        </p>
+      </section>
+
+      <section id="experience" class="section container">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class="card">
+            <h3>Software Engineer III · Walmart Global Tech</h3>
+            <p class="meta">Hoboken, NJ · Jun 2024 - Present</p>
+            <ul>
+              <li>Building a generic ad attribution platform for Walmart Connect.</li>
+              <li>Developed Path-to-Conversion reporting for advertiser outcomes.</li>
+              <li>Stack: Spark, Scala, Airflow, Python, GCP (DataProc).</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Senior Software Engineer · Goldman Sachs</h3>
+            <p class="meta">New York, NY · Jul 2023 - Jun 2024</p>
+            <ul>
+              <li>Built high-performance compliance data pipelines.</li>
+              <li>Reduced cross-trade submission time from 2 minutes to 10 seconds.</li>
+              <li>Designed and shipped a new core Spark pipeline.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Graduate Student Researcher · IBM</h3>
+            <p class="meta">Remote · Jan 2023 - May 2023</p>
+            <ul>
+              <li>Researched polymer representation learning from pre-trained models.</li>
+              <li>Improved property prediction accuracy and performance by 5%.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Software Engineer Intern · Meta</h3>
+            <p class="meta">Menlo Park, CA · May 2022 - Aug 2022</p>
+            <ul>
+              <li>Built Rust tooling for production workload execution.</li>
+              <li>Implemented metadata store and remote job execution capabilities.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <h2>Skills</h2>
+        <div class="chips">
+          <span>Java</span><span>Scala</span><span>Python</span><span>Rust</span>
+          <span>SQL</span><span>Spark</span><span>Airflow</span><span>Kafka</span>
+          <span>Hadoop</span><span>Redis</span><span>Hive</span><span>Iceberg</span>
+          <span>Linux</span><span>GCP</span><span>Git</span><span>Distributed Systems</span>
+        </div>
+      </section>
+
+      <section id="education" class="section container">
+        <h2>Education</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>University of Massachusetts Amherst</h3>
+            <p class="meta">M.S. Computer Science · 2021 - 2023</p>
+            <p>GPA: 3.84 / 4.0</p>
+          </article>
+          <article class="card">
+            <h3>Thapar Institute of Engineering and Technology</h3>
+            <p class="meta">B.E. Computer Engineering · 2015 - 2019</p>
+            <p>CGPA: 9.32 / 10</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2>Contact</h2>
+        <p>
+          Open to interesting engineering opportunities and collaborations.
+          Reach out anytime.
+        </p>
+        <p class="contact-links">
+          <a href="mailto:siddharth.goel7@gmail.com">siddharth.goel7@gmail.com</a>
+          <span>·</span>
+          <a href="https://www.linkedin.com/in/sidgoel7/" target="_blank" rel="noreferrer">linkedin.com/in/sidgoel7</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Siddharth Goel</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
