@@ -1,0 +1,85 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Siddharth Goel
+    - name: Location
+      value: New York City, NY
+    - name: Email
+      value: siddharth.goel7@gmail.com
+    - name: LinkedIn
+      value: linkedin.com/in/sidgoel7
+    - name: GitHub
+      value: github.com/siddgoel
+
+- title: Education
+  type: time_table
+  contents:
+    - title: M.S. Computer Science
+      institution: University of Massachusetts Amherst, Amherst, MA
+      year: 2021 - 2023
+      description:
+        - "GPA: 3.84/4.0"
+        - "Coursework: Neural Networks, Secure Distributed Systems, ML, Distributed & Operating Systems"
+    - title: B.E. Computer Engineering
+      institution: Thapar Institute of Engineering and Technology, Punjab, India
+      year: 2015 - 2019
+      description:
+        - "CGPA: 9.32/10"
+        - "Coursework: Data Structures & Algorithms, Operating Systems, Secure Coding, Computer Networks"
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior Software Engineer
+      institution: Walmart Global Tech (AdTech Measurement & Reporting), Hoboken, NJ
+      year: 2024 - Present
+      description:
+        - "Building a generic ad attribution platform (Attribution-as-a-Service) using Spark/Scala, Airflow, and Python."
+        - "Developed Path-to-Conversion reporting for Walmart Connect advertiser outcomes."
+        - "Technologies: Apache Spark, Airflow, Scala, Python, GCP (DataProc)"
+    - title: Senior Software Engineer
+      institution: Goldman Sachs, New York, NY
+      year: 2023 - 2024
+      description:
+        - "Developed high-performance pipelines to detect exceptions in market trading data."
+        - "Reduced cross-trade submission time from ~2 minutes to ~10 seconds per transaction."
+        - "Designed and deployed a new core Spark pipeline."
+    - title: Graduate Student Researcher
+      institution: IBM (Remote)
+      year: 2023
+      description:
+        - "Researched polymer representation learning and applied findings to property prediction."
+        - "Improved prediction accuracy/performance by ~5%."
+    - title: Software Engineer Intern
+      institution: Meta, Menlo Park, CA
+      year: 2022
+      description:
+        - "Built Rust tooling for executing complex production workloads."
+        - "Implemented metadata store and remote job execution capabilities."
+    - title: Software Engineer Intern
+      institution: ByteDance, New York, NY
+      year: 2022
+      description:
+        - "Improved ingestion performance by ~10% by optimizing compression/decompression in an offline inference pipeline."
+        - "Contributed to Ray: added support for snappy-compressed text decompression."
+    - title: Software Development Engineer (Big Data)
+      institution: Guavus Network Systems, Gurgaon, India
+      year: 2019 - 2021
+      description:
+        - "Designed tethering detection on EDR datasets using deep packet inspection and rule-based filtering."
+        - "Built Kafka->Redis streaming service with <0.5s latency for live IP/mobile mappings."
+        - "On-call rotation: fixed 4 critical and 20+ non-critical production issues."
+
+- title: Skills
+  type: list
+  contents:
+    - "<u>Languages:</u> Java, Scala, Python, Rust, SQL"
+    - "<u>Data/Infra:</u> Spark, Airflow, Kafka, Hadoop, Hive, Iceberg, Redis"
+    - "<u>Platforms/Tools:</u> Linux/Unix, Git, GCP, Jira, Maven"
+
+- title: Selected Highlights
+  type: list
+  contents:
+    - "Performance optimization: reduced a trading workflow from ~2 minutes to ~10 seconds per transaction."
+    - "Large-scale data platforms: attribution + reporting pipelines using Spark/Scala + Airflow on GCP."
