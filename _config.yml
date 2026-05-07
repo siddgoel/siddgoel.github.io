@@ -200,6 +200,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - assets/jupyter
+  - _posts/2023-07-04-jupyter-notebook.md
+  - _posts/2021-07-04-diagrams.md
 keep_files:
   - CNAME
   - .nojekyll
