@@ -1,79 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfolio of Siddharth Goel, Senior Software Engineer building scalable data and distributed systems."
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siddharth Goel | Senior Software Engineer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="topbar">
-      <div class="container nav-wrap">
-        <a class="brand" href="index.html" aria-label="Home">
-          <img class="brand-photo" src="assets/Me.jpg" alt="Siddharth Goel" />
-        </a>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
-          <span id="themeIcon">🌙</span>
-        </button>
-      </div>
+    <meta name="description" content="Senior Software Engineer specializing in Distributed Systems, Big Data, and AdTech. Experience at Walmart Global Tech, Goldman Sachs, Meta, and ByteDance.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">SG<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="resume.pdf" class="btn-primary" target="_blank"><i class="fas fa-file-download"></i> Resume</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content" data-reveal>
+                    <h2 class="greeting">Hello, I'm</h2>
+                    <h1 class="name">Siddharth Goel</h1>
+                    <h3 class="role">Building High-Performance Distributed Systems & Data Platforms</h3>
+                    <p class="hero-bio">
+                        Senior Software Engineer at <strong>Walmart Global Tech</strong>. 
+                        Expert in Big Data, AdTech, and Performance Optimization.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn-primary">View My Work</a>
+                        <div class="hero-socials">
+                            <a href="https://linkedin.com/in/sidgoel7" target="_blank" class="btn-secondary">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="mailto:siddharth.goel7@gmail.com" class="btn-secondary">
+                                <i class="fas fa-envelope"></i> Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-img-container" data-reveal>
+                    <img src="me.jpg" alt="Siddharth Goel" class="profile-img">
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll" id="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll Down</span>
+        </div>
     </header>
 
     <main>
-      <section class="hero container hero-grid">
-        <div>
-          <p class="eyebrow">Senior Software Engineer @ Walmart Global Tech</p>
-          <h1>Siddharth Goel</h1>
-          <p class="lead">
-            I build high-performance data platforms and distributed systems for
-            large-scale ad tech and financial workloads.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="experience.html">View Experience</a>
-            <a class="btn btn-secondary" href="mailto:siddharth.goel7@gmail.com">Email Me</a>
-          </div>
-          <div class="social-links">
-            <a class="icon-link" href="https://www.linkedin.com/in/sidgoel7/" target="_blank" rel="noreferrer">
-              <img src="assets/linkedin.svg" alt="LinkedIn icon" />
-              LinkedIn
-            </a>
-            <a class="icon-link" href="https://github.com/siddgoel" target="_blank" rel="noreferrer">
-              <img src="assets/github.svg" alt="GitHub icon" />
-              GitHub
-            </a>
-            <a class="icon-link" href="tel:+14136958052">
-              <img src="assets/phone.svg" alt="Phone icon" />
-              +1 (413) 695-8052
-            </a>
-          </div>
-        </div>
-        <div class="profile-photo-wrap">
-          <img class="profile-photo" src="assets/Me.jpg" alt="Portrait of Siddharth Goel" />
-        </div>
-      </section>
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-title" data-reveal>
+                    <span>01.</span>
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text" data-reveal>
+                        <p>
+                            I am a Senior Software Engineer specializing in building scalable data products and optimizing performance for high-throughput distributed systems. Currently, I'm at <strong>Walmart Global Tech</strong>, architecting an "Attribution As A Service" platform for Walmart Connect.
+                        </p>
+                        <p>
+                            With an MS in Computer Science from <strong>UMass Amherst</strong> (GPA 3.84) and experience at top-tier tech firms like <strong>Meta</strong>, <strong>Goldman Sachs</strong>, and <strong>ByteDance</strong>, I've developed a deep expertise in Spark, Scala, Rust, and Big Data infrastructure.
+                        </p>
+                        <p>
+                            I thrive on solving complex engineering challenges—whether it's reducing trade submission times by 10x or optimizing data ingestion frameworks. I'm also passionate about contributing to open-source projects like <strong>Ray</strong>.
+                        </p>
+                    </div>
+                    <div class="about-stats" data-reveal>
+                        <div class="stat-card">
+                            <span class="stat-num">5+</span>
+                            <span class="stat-label">Years of Experience</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num">10x</span>
+                            <span class="stat-label">Performance Gains</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section bg-alt">
+            <div class="container">
+                <div class="section-title" data-reveal>
+                    <span>02.</span>
+                    <h2>Professional Experience</h2>
+                </div>
+                <div class="timeline">
+                    <!-- Walmart -->
+                    <div class="timeline-item" data-reveal>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-header">
+                                <h3>Software Engineer III</h3>
+                                <span class="timeline-date">Jun 2024 – Present</span>
+                            </div>
+                            <h4 class="company">Walmart Global Tech | Hoboken, NJ</h4>
+                            <ul>
+                                <li>Developing <strong>Attribution As A Service</strong>, a generic ad attribution platform using Spark, Scala, and Airflow.</li>
+                                <li>Designed generic capabilities to reduce development time for new attribution pipelines.</li>
+                                <li>Developed the <strong>Path-to-Conversion</strong> reporting module for Walmart Connect.</li>
+                                <li>Serving as the Operational Excellence (OE) Champion for the department.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Goldman Sachs -->
+                    <div class="timeline-item" data-reveal>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-header">
+                                <h3>Senior Software Engineer</h3>
+                                <span class="timeline-date">Jul 2023 – Jun 2024</span>
+                            </div>
+                            <h4 class="company">Goldman Sachs | New York City, NY</h4>
+                            <ul>
+                                <li>Built high-performance data pipelines in the Compliance Big Data Engineering team.</li>
+                                <li>Reduced <strong>Cross Trade tool</strong> submission times from <strong>2 minutes to 10 seconds</strong> via distributed processing.</li>
+                                <li>Designed and deployed the team’s new core Spark-based data pipeline.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Meta -->
+                    <div class="timeline-item" data-reveal>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-header">
+                                <h3>Software Engineer Intern</h3>
+                                <span class="timeline-date">May 2022 – Aug 2022</span>
+                            </div>
+                            <h4 class="company">Meta Platforms Inc. | Menlo Park, CA</h4>
+                            <ul>
+                                <li>Developed <strong>Hargow</strong>, a fast <strong>Rust-based</strong> CLI for executing complex workloads in production.</li>
+                                <li>Implemented metadata store and remote job execution features.</li>
+                                <li>Integrated Citrix remote desktop with hargow-server using rust curl-lib and thrift.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- ByteDance -->
+                    <div class="timeline-item" data-reveal>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-header">
+                                <h3>Software Engineer Intern</h3>
+                                <span class="timeline-date">Jan 2022 – Apr 2022</span>
+                            </div>
+                            <h4 class="company">Bytedance Inc. | New York City, NY</h4>
+                            <ul>
+                                <li>Improved ingestion performance of Offline Inference Framework by <strong>10%</strong> via compression logic optimization.</li>
+                                <li>Contributed to the <strong>Ray project</strong>, adding support for decompression of snappy compressed txt files.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Guavus -->
+                    <div class="timeline-item" data-reveal>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-header">
+                                <h3>Software Development Engineer (Big Data)</h3>
+                                <span class="timeline-date">Jul 2019 – Jul 2021</span>
+                            </div>
+                            <h4 class="company">Guavus Network Systems | Gurgaon, IN</h4>
+                            <ul>
+                                <li>Designed a <strong>Tethering detection solution</strong> using Deep Packet Inspection (DPI) on EDR datasets.</li>
+                                <li>Created a <strong>Kafka-to-Redis streaming service</strong> with <strong><0.5s latency</strong> for IP mappings.</li>
+                                <li>Resolved 4 critical and 20+ non-critical production issues during maintenance.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-title" data-reveal>
+                    <span>03.</span>
+                    <h2>Featured Projects</h2>
+                </div>
+                <div class="project-grid">
+                    <div class="project-card glass" data-reveal>
+                        <div class="project-icon"><i class="fas fa-terminal"></i></div>
+                        <h3>Hargow (Rust CLI)</h3>
+                        <p>A high-performance command-line tool developed at Meta for executing complex workloads in production environments.</p>
+                        <div class="project-tags">
+                            <span>Rust</span>
+                            <span>CLI</span>
+                            <span>Remote Execution</span>
+                        </div>
+                    </div>
+                    <div class="project-card glass" data-reveal>
+                        <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+                        <h3>Ray Contribution</h3>
+                        <p>Improved decompression support for snappy files in the Ray project, enhancing offline inference framework performance.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Distributed Systems</span>
+                            <span>Open Source</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ray-project/ray" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card glass" data-reveal>
+                        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Attribution As A Service</h3>
+                        <p>Generic ad attribution platform at Walmart, processing millions of transactions to measure advertiser outcomes.</p>
+                        <div class="project-tags">
+                            <span>Scala</span>
+                            <span>Spark</span>
+                            <span>GCP</span>
+                            <span>AdTech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-title" data-reveal>
+                    <span>04.</span>
+                    <h2>Technical Skills</h2>
+                </div>
+                <div class="skills-wrapper">
+                    <div class="skill-category" data-reveal>
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span>Java</span>
+                            <span>Scala</span>
+                            <span>Python</span>
+                            <span>Rust</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-reveal>
+                        <h3>Data & Distributed</h3>
+                        <div class="skill-tags">
+                            <span>Apache Spark</span>
+                            <span>Airflow</span>
+                            <span>Kafka</span>
+                            <span>Hadoop</span>
+                            <span>Redis</span>
+                            <span>Hive</span>
+                            <span>Iceberg</span>
+                            <span>gRPC</span>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-reveal>
+                        <h3>Cloud & DevOps</h3>
+                        <div class="skill-tags">
+                            <span>GCP (DataProc)</span>
+                            <span>Linux</span>
+                            <span>Git/Mercurial</span>
+                            <span>Docker</span>
+                            <span>Ansible</span>
+                            <span>Maven/Buck</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-box glass" data-reveal>
+                    <h2>Get In Touch</h2>
+                    <p>I'm always open to discussing distributed systems, big data challenges, or performance optimization.</p>
+                    <a href="mailto:siddharth.goel7@gmail.com" class="btn-primary">Say Hello</a>
+                    <div class="social-links">
+                        <a href="https://github.com/siddgoel" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/sidgoel7" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://instagram.com/sidgoel7" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer">
-      <p>© <span id="year"></span> Siddharth Goel</p>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Siddharth Goel. Built for performance and scale.</p>
+        </div>
     </footer>
 
+    <!-- Particles.js Library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
